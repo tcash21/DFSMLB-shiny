@@ -1,0 +1,18 @@
+.nav_logo {
+	margin-top: 10px;
+}
+
+.col-sm-4 {
+ width: 18%;
+}
+
+#update {
+ position: relative;
+ left: -20px;
+}
+
+#total {
+ position: absolute;
+ right: -400px;
+ top: -5px;
+}

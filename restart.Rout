@@ -1,0 +1,32 @@
+
+R version 3.2.2 (2015-08-14) -- "Fire Safety"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-redhat-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(rsconnect)
+> setAccountInfo(name='tcb-analytics', token='0C72B310D4556D44F81FDB561A19D53A', secret='06IDXtBsiRjsUXMwhIG6j6a2c/8HkfZvhLEK/1MV')
+> restartApp(appName='dfsoptimize')
+Restarting application...
+Waiting for task: 180627624
+  deploying: Starting instances
+  rollforward: Activating new instances
+  terminating: Stopping old instances
+Application successfully restarted
+> 
+> proc.time()
+   user  system elapsed 
+  0.600   0.120  10.998 
